@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Meta Tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Spice Haven - Delicious food, warm atmosphere and unforgettable dining experience.">
+    <meta name="keywords" content="restaurant, food, dining, Indian food, Spice Haven">
+    <meta name="author" content="Student">
+
+    <title>Spice Haven | Restaurant</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body class="bg-orange-50 text-gray-800">
+
+    <!-- ================= NAVBAR ================= -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+
+        <nav class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+
+            <!-- Website Logo / Name -->
+            <div class="flex items-center gap-3">
+                <i class="fa-solid fa-utensils text-orange-600 text-2xl"></i>
+                <h1 class="text-2xl font-bold text-orange-700">
+                    Spice Haven
+                </h1>
+            </div>
+
+            <!-- Navigation Links -->
+            <div class="flex gap-6 font-medium">
+                <a href="#home" class="hover:text-orange-600">Home</a>
+                <a href="#features" class="hover:text-orange-600">Features</a>
+                <a href="#about" class="hover:text-orange-600">About</a>
+                <a href="#contact" class="hover:text-orange-600">Contact</a>
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ================= HERO SECTION ================= -->
+    <main>
+
+        <section id="home"
+            class="bg-gradient-to-r from-orange-700 to-red-600 text-white">
+
+            <div class="max-w-7xl mx-auto px-6 py-24 grid md:grid-cols-2 gap-10 items-center">
+
+                <!-- Hero Content -->
+                <div>
+
+                    <p class="uppercase tracking-widest text-orange-200 font-semibold mb-3">
+                        Welcome to Spice Haven
+                    </p>
+
+                    <h2 class="text-5xl md:text-6xl font-bold leading-tight mb-6">
+                        Taste the Joy,
+                        <span class="text-yellow-300">Feel the Flavor!</span>
+                    </h2>
+
+                    <p class="text-lg text-orange-100 mb-8 max-w-lg">
+                        Experience delicious dishes prepared with fresh ingredients,
+                        traditional recipes and a modern touch.
+                    </p>
+
+                    <div class="flex gap-4">
+
+                        <a href="#features"
+                            class="bg-yellow-400 text-gray-900 px-6 py-3 rounded-lg font-bold hover:bg-yellow-300">
+                            Explore Menu
+                        </a>
+
+                        <a href="#contact"
+                            class="border border-white px-6 py-3 rounded-lg font-bold hover:bg-white hover:text-orange-700">
+                            Contact Us
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Hero Icon -->
+                <div class="flex justify-center">
+
+                    <div class="bg-white/10 backdrop-blur-sm rounded-full
+                                w-72 h-72 md:w-96 md:h-96
+                                flex items-center justify-center">
+
+                        <i class="fa-solid fa-bowl-food text-yellow-300
+                                  text-8xl md:text-9xl">
+                        </i>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FEATURES SECTION ================= -->
+        <section id="features" class="py-20 px-6">
+
+            <div class="max-w-7xl mx-auto">
+
+                <div class="text-center mb-12">
+
+                    <p class="text-orange-600 font-semibold uppercase tracking-wide">
+                        Why Choose Us
+                    </p>
+
+                    <h2 class="text-4xl font-bold text-gray-900 mt-2">
+                        Our Special Features
+                    </h2>
+
+                    <p class="text-gray-600 mt-4">
+                        Everything you need for a memorable dining experience.
+                    </p>
+
+                </div>
+
+
+                <!-- Responsive Grid -->
+                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                    <!-- Feature Card 1 -->
+                    <article
+                        class="bg-white p-8 rounded-2xl shadow-lg text-center hover:-translate-y-2 transition">
+
+                        <div class="text-orange-600 text-4xl mb-5">
+                            <i class="fa-solid fa-leaf"></i>
+                        </div>
+
+                        <h3 class="text-xl font-bold mb-3">
+                            Fresh Ingredients
+                        </h3>
+
+                        <p class="text-gray-600">
+                            We use fresh and high-quality ingredients
+                            in every dish.
+                        </p>
+
+                    </article>
+
+
+                    <!-- Feature Card 2 -->
+                    <article
+                        class="bg-white p-8 rounded-2xl shadow-lg text-center hover:-translate-y-2 transition">
+
+                        <div class="text-orange-600 text-4xl mb-5">
+                            <i class="fa-solid fa-chef-hat"></i>
+                        </div>
+
+                        <h3 class="text-xl font-bold mb-3">
+                            Expert Chefs
+                        </h3>
+
+                        <p class="text-gray-600">
+                            Our experienced chefs prepare every meal
+                            with passion.
+                        </p>
+
+                    </article>
+
+
+                    <!-- Feature Card 3 -->
+                    <article
+                        class="bg-white p-8 rounded-2xl shadow-lg text-center hover:-translate-y-2 transition">
+
+                        <div class="text-orange-600 text-4xl mb-5">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+
+                        <h3 class="text-xl font-bold mb-3">
+                            Made With Love
+                        </h3>
+
+                        <p class="text-gray-600">
+                            Every plate is prepared with care
+                            and attention to detail.
+                        </p>
+
+                    </article>
+
+
+                    <!-- Feature Card 4 - NEW -->
+                    <article
+                        class="bg-white p-8 rounded-2xl shadow-lg text-center hover:-translate-y-2 transition">
+
+                        <div class="text-orange-600 text-4xl mb-5">
+                            <i class="fa-solid fa-truck-fast"></i>
+                        </div>
+
+                        <h3 class="text-xl font-bold mb-3">
+                            Fast Delivery
+                        </h3>
+
+                        <p class="text-gray-600">
+                            Enjoy your favorite dishes delivered
+                            fresh and quickly to your doorstep.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT SECTION ================= -->
+        <section id="about" class="bg-orange-100 py-20 px-6">
+
+            <div class="max-w-5xl mx-auto text-center">
+
+                <i class="fa-solid fa-store text-orange-600 text-5xl mb-5"></i>
+
+                <h2 class="text-4xl font-bold mb-5">
+                    About Spice Haven
+                </h2>
+
+                <p class="text-gray-700 text-lg leading-relaxed">
+                    Spice Haven is a place where traditional flavors meet
+                    modern dining. From spicy Indian favorites to delicious
+                    international dishes, our goal is to serve food that
+                    brings people together.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer id="contact" class="bg-gray-900 text-white">
+
+        <div class="max-w-7xl mx-auto px-6 py-12 grid md:grid-cols-3 gap-8">
+
+            <!-- Restaurant -->
+            <div>
+
+                <div class="flex items-center gap-3 mb-4">
+
+                    <i class="fa-solid fa-utensils text-orange-500 text-2xl"></i>
+
+                    <h2 class="text-xl font-bold">
+                        Spice Haven
+                    </h2>
+
+                </div>
+
+                <p class="text-gray-400">
+                    Delicious food, unforgettable moments.
+                </p>
+
+            </div>
+
+
+            <!-- Contact -->
+            <div>
+
+                <h3 class="text-lg font-bold mb-4">
+                    Contact Us
+                </h3>
+
+                <p class="text-gray-400 mb-2">
+                    <i class="fa-solid fa-location-dot mr-2"></i>
+                    Bengaluru, India
+                </p>
+
+                <p class="text-gray-400 mb-2">
+                    <i class="fa-solid fa-phone mr-2"></i>
+                    +91 98765 43210
+                </p>
+
+                <p class="text-gray-400">
+                    <i class="fa-solid fa-envelope mr-2"></i>
+                    hello@spicehaven.com
+                </p>
+
+            </div>
+
+
+            <!-- Social Media -->
+            <div>
+
+                <h3 class="text-lg font-bold mb-4">
+                    Follow Us
+                </h3>
+
+                <div class="flex gap-5 text-2xl">
+
+                    <a href="#" class="hover:text-orange-500">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+
+                    <a href="#" class="hover:text-orange-500">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="hover:text-orange-500">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Copyright -->
+        <div class="border-t border-gray-700 text-center py-5 text-gray-400">
+
+            <p>
+                &copy; 2026 Spice Haven. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
